@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+   margin: 50px;
+}
+
+.button-download {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-download img{
+    width: 150px;  
+    height: 150px;
+}
+
+.button-download img:hover {
+    opacity: 0.5;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+}
+
+.sobre p, .instrucoes p {
+    text-align: justify;
+}
+
+.sobre, .instrucoes, footer {
+    border-top: 1px solid rgb(106, 113, 120)
+}
+
+footer p{
+    text-align: center;
+}
